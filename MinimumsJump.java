@@ -17,4 +17,5 @@ class Solution {
         
         dp[i]=(min==Integer.MAX_VALUE)?min:min+1;
         return dp[i];
+    }
 }
